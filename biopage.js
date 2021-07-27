@@ -58,7 +58,7 @@ var totalScore = "0"; // I could not figure out how to turn this into a function
         let rightAnswer = false;
         while (rightAnswer === false) {
           let response = prompt("Do I like to play music? y/n? ");
-          if (response.toUpperCase() === 'Y' || response.toUpperCase() === 'YES') { //(response.toUpperCase() === ‘Y’ || response.toUpperCase() === ‘YES’)
+          if (response.toUpperCase() === "Y" || response.toUpperCase() === "YES") { //(response.toUpperCase() === ‘Y’ || response.toUpperCase() === ‘YES’)
             totalScore++;
             rightAnswer = true;
             alert("You got it!!");
