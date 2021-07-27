@@ -31,7 +31,7 @@ var totalScore = "0"; // I could not figure out how to turn this into a function
         while (rightAnswer === false) {
           let response = prompt("Am I 22? y/n");
 
-          if (response === "y" || response.toUpperCase() === "YES") {
+          if (response.toUpperCase() === "Y" || response.toUpperCase() === "YES") {
             totalScore++;
             alert("You got it!!");
             rightAnswer = true;
@@ -58,7 +58,7 @@ var totalScore = "0"; // I could not figure out how to turn this into a function
         let rightAnswer = false;
         while (rightAnswer === false) {
           let response = prompt("Do I like to play music? y/n? ");
-          if (response === 'yes' || response.toUpperCase() === 'Y') {
+          if (response.toUpperCase() === 'Y' || response.toUpperCase() === 'YES') { //(response.toUpperCase() === ‘Y’ || response.toUpperCase() === ‘YES’)
             totalScore++;
             rightAnswer = true;
             alert("You got it!!");
@@ -75,7 +75,7 @@ var totalScore = "0"; // I could not figure out how to turn this into a function
         while (cornBread === false) {
           let response = prompt("Do I like cornbread? y/n?");
 
-          if (response === "no" || response.toUpperCase() === "NO") {
+          if (response.toUpperCase() === "N" || response.toUpperCase() === "NO") {
             totalScore++;
             alert("You guessed it!");
             cornBread = true;
@@ -91,7 +91,7 @@ var totalScore = "0"; // I could not figure out how to turn this into a function
         while (loveToDraw === false) {
           let response = prompt("Do I love to draw?");
 
-          if (response === "yes" || response.toUpperCase() == "YES") {
+          if (response.toUpperCase() === "Y" || response.toUpperCase() == "YES") {
             totalScore++;
             alert("AWESOME!!");
             loveToDraw = true;
@@ -110,7 +110,7 @@ var totalScore = "0"; // I could not figure out how to turn this into a function
             "Last y / n  " + userName + " , Do you think you'll like my page?"
           );
 
-          if (response === "yes" || response.toUpperCase() === "Y") {
+          if (response.toUpperCase() === "Y" || response.toUpperCase() === "YES") {
             totalScore++;
             alert(userName + " , You guessed correctly!!");
             
